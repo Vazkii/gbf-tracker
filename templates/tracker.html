@@ -1,0 +1,32 @@
+<table>
+	<tr>
+		<th>Name</th>
+		<th>Count</th>
+		<th>Target</th>
+		<th>Remain</th>
+		<th>Progress</th>
+	</tr>
+{{#items}}
+	<tr>
+		<td class='name-cell'>
+			<a href="https://gbf.wiki/index.php?search={{name}}">
+			<div class='item-img-holder'><img class='item-img' src="https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/item/article/s/{{id}}.jpg"></div>
+			<div class='item-name'>{{name}}</div></a>
+		</td>
+		<td>{{count}}</td>
+		{{#has_target}}
+			<td>{{target}}</td>
+			<td>{{remaining}}</td>
+			<td>
+				{{percentage}}% 
+				<div class="progress-bar">
+					<div class="green-progress" style="width:{{percentage}}%;"></div>
+				</div>
+			</td>
+		{{/has_target}}
+		{{^has_target}}
+			<td colspan=3>-</td>
+		{{/has_target}}
+	</tr>
+{{/items}}
+</table>

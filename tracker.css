@@ -1,0 +1,92 @@
+html {
+	background-color: #222;
+	color: #ddd;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+#header {
+	font-size: 30px;
+	margin: 30px;
+	font-weight: bold;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 1000px;
+}
+
+td {
+	border: 1px solid #555;
+	background-color: #222227;
+}
+
+a {
+	color:  #ddf;
+	text-decoration: none;
+}
+
+.item-img-holder {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.item-img {
+	width: 50px;
+	height: 50px;
+	margin-bottom: -4px;
+}
+
+.item-name {
+	display: inline-block;
+	vertical-align: middle;
+	width: calc(100% - 55px);
+	text-align: center;
+}
+
+.name-cell {
+	text-align: left;
+}
+
+td:not(.name-cell) {
+	font-size: 20px;
+}
+
+.progress-bar {
+	content: "";
+	display: block;
+	height: 10px;
+	width: 100%;
+	background-color: #8d00002e;
+	position: relative;
+	top: 7px;
+}
+
+.green-progress {
+	height: 10px;
+	background-color: #008000b5;
+	position: relative;
+}
+
+#footer {
+	color: #777;
+}
+
+#howto-btn {
+	color:  #ddf;
+	cursor: pointer;
+}
+
+#howto {
+	color: #ddd;
+	display: none;
+	width: 700px;
+	margin: auto;
+}
+
+#howto>ul {
+	text-align: left;
+}

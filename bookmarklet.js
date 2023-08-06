@@ -1,0 +1,1 @@
+javascript:function __stringify_treasure(r){var e="",t=r.list;for(var n of t)e&&(e+="|"),e+=parseInt(n.item_id),e+=";",e+=parseInt(n.number),e+=";",e+=n.registration_number,e+=";",e+=n.name;return e}function __open_tracker_site(r){var e=btoa(__stringify_treasure(r.treasure));window.open("https://vazkii.net/webapp/gbftracker?content="+e,"_blank")}__open_tracker_site(Game);
