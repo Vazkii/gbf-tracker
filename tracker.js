@@ -1,4 +1,13 @@
 function onStartup() {
+	try {
+		onStartupSafe();
+	} catch(error) {
+		$('#contents').html("No data was found. Use the bookmark ingame to get it.<br><br>");
+		onClickHowTo();
+	}
+}
+
+function onStartupSafe() {
 	var content = decodeURIComponent($.urlParam('content'));
 	var decoded = atob(content);
 	console.log(decoded);
