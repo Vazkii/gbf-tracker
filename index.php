@@ -28,6 +28,7 @@
 				<li>Press the Bookmark while in GBF</li>
 				<li>Share the link with anyone you want</li>
 			</ul>
+			<a href="https://vazkii.net/webapp/gbftracker/?content=NTcwOzI2OzA7Q3VubmluZyBEZXZpbCdzIEhvcm58MjUwODM7MDswO0RvcHBlbHdvcmxkIFNleHRhbnR8MjUwODY7Mjs1MDtHb3NwZWwgb2YgQW5hbGlwc2lzfDI1MDI2OzE7MjQwO1dpbmQgVmVydW0gUHJvb2Z8MjUwMDQ7MTA7MTEwO1dpbmRib3JuZSBBc3RyYXwyNTAxNjs4NDsxMTA7SnVkZ2VtZW50IElkZWFufDU1Mjs2OzYwO0dhbGUgUm9ja3w1NTA7NTszMDtBYnlzc2FsIFRyYWdlZHl8NTQ5OzIzOzYwO1Ntb2xkZXJpbmcgUnViYmxlfDU1NzszOTs1MDtXaWxuYXMncyBKZXdlbHwyNTAzNDszNDs5MDtCZWxsYXRvciBGcmFnbWVudA==">(click me for an example of the site!)</a>
 		</div>
 	</div>
 
